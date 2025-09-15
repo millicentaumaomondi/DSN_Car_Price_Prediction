@@ -1,6 +1,6 @@
 # Car Price Prediction
 
-This repository contains a Jupyter notebook (`car_price_pred.ipynb`) that demonstrates a machine learning pipeline for predicting car prices. The project involves data loading, exploratory data analysis (EDA), preprocessing, model training with various regressors, hyperparameter tuning using RandomizedSearchCV, model evaluation, and generating a submission file.
+This repository contains two Jupyter notebooks: `car_price_pred.ipynb` and `merged_car_pred.ipynb`. The `merged_car_pred.ipynb` merges the hackathon's data with the Used Car Price Prediction Dataset original dataset as the feature distributions are close though not exactly the same. The `car_price_pred.ipynb` only uses the hackathon's dataset. The project involves data loading, exploratory data analysis (EDA), preprocessing, model training with various regressors, hyperparameter tuning using RandomizedSearchCV, model evaluation, and generating a submission file.
 
 ## Table of Contents
 
@@ -120,3 +120,4 @@ Note: `xgboost` and `catboost` are optional. The notebook will still run without
 │       └── test.csv
 └── README.md (this file)
 ```
+
